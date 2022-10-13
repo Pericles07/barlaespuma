@@ -1,0 +1,219 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.nav__contenedor {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: 'Kaushan Script', cursive;
+}
+
+.nav__img{
+    width: 100px;
+    }
+
+.nav__portada{
+    width: 50%;
+    margin-left: 15%;
+    border-radius: 5em;
+}    
+
+.nav__idiomas{
+    display: block;
+    margin-left:5em;
+}    
+
+.img__idiomas{
+    width: 30px;
+}    
+
+.nav__link{
+    text-decoration:none;
+    color: black;
+    margin-left: auto;
+    transition: 1s;
+}
+
+.nav__link:hover{
+    color:red;
+}
+
+.carta__link{
+    margin-right: 5em;
+}
+
+.main__contenedor{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.main__titulo{
+    font-family: 'Kaushan Script', cursive;
+    justify-content: space-between;
+    font-weight:normal;
+}
+
+.logo__cerveza{
+    width: 30px;
+}
+
+.main__img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__galeria{
+    width: 33.3%;
+}
+
+.img__galeria:hover{
+    filter: saturate(200%);
+}
+
+.img__exterior{
+    width: 100%;
+}
+
+.img__nosotros{
+    margin-top: 2em;
+    width:70%;
+    height: 33em;
+    border-radius: 5px;
+}
+
+.main__parrafo{
+    margin:5em 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img__interior{
+    display: flex;
+    justify-content: space-between;
+    }
+
+.img__int{
+    width: 49%;
+}
+
+.logo__jamon{
+    width: 60px;
+}
+
+.carta{
+    display: flex;
+    padding-top: 2em;
+    margin: 0 2em;
+}
+
+.carta__img{
+    width: 50%;
+}
+
+.img-qr{
+    width: 20%;
+}
+
+.img-5{
+    width: 100%;
+    height: 20em;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer__img{
+    width: 20%;
+    height: 20.5em;
+}
+
+.footer__contacto{
+    display: block;
+    margin: 1em;
+}
+
+.footer_icon{
+    width: 30px;
+    padding-top: 1.5em;
+}
+
+.footer__redes{
+    width: 40px;
+}
+
+.footer__social{
+    display: flex;
+    gap: 1.5em;
+    margin-top: 1.5em;
+    
+}
+
+.footer__media{
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+}
+
+
+@media(max-width:540px){
+
+    .nav__portada{
+        display: none;
+    } 
+
+    .nav__idiomas{
+        margin-top:5em;
+    }    
+
+    .img__interior{
+        display: block;
+    }
+    
+    .img__int{
+        width: 100%;
+    }
+
+    .img__nosotros{
+        height: 10em;
+    }
+
+    .carta{
+        display: block;
+        margin: 0;
+    }
+
+    .carta__img{
+        width: 100%;
+    }
+
+    .img-qr{
+        width: 10em;
+    }
+
+    .img-5{
+        height: 10em;
+    }
+
+    .footer__img{
+        width: 15%;
+        height: 15em;
+        margin-top: 5em;
+    }
+}

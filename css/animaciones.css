@@ -1,0 +1,92 @@
+/*menu hamburguesa*/
+
+#menu,#menu-check{
+    display: none;
+}
+
+@media(max-width:500px){
+
+    header div.nav__contenedor nav {
+        opacity: 0;
+        height: 0%;
+        transition:all .7s ease-out;
+    }
+
+    header div.nav__contenedor nav.visible {
+        display: block;
+        opacity: 0.95;
+        height: 80%;
+    }
+
+    #menu{
+        display: block;
+        font-size: 1.5em;
+        font-weight: bold;
+        border-radius: 0.3em;
+        position: fixed;
+        right: 0.5em;
+        top: 0.5em;
+        z-index: 9999;
+        cursor:pointer;
+        background-color: white;
+        border: none;
+    }
+
+    #menu-cerrar {
+        display: none;
+    }
+
+    #menu.salir #menu-abrir {
+        display: none;
+
+    }
+
+    #menu.salir #menu-cerrar {
+        display: block;
+    }
+
+    .nav__contenedor nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color:darkred ;
+        padding-top: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .nav__link{
+        color: white;
+        display: block;
+        text-align:center;
+        padding-right: 2em;
+        padding-top: 5em;
+    }
+
+    .nav__link:hover{
+        color: black;
+    }
+
+    .carta__link{
+        padding: 1em;
+        background-color: darkred;
+        border-radius: 2em;
+    }
+
+}
+
+/*Efecto neon para el titulo*/
+.main__titulo{
+    animation: neonEffect 5s infinite;
+}
+
+@keyframes neonEffect {
+    0%, 35%, 45%, 65%, 100%{
+        text-shadow: 
+        red 0 0 12px,
+        rgb(239, 243, 4) 0 0 24PX,
+        darkred 0 0 36PX;
+    }
+    40%, 60%{
+        text-shadow: none;
+    }
+}   
