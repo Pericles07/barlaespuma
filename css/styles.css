@@ -180,6 +180,10 @@ body{
 
     .nav__idiomas{
         margin-top:5em;
+    }
+
+    .main__titulo{
+        font-size: 1em;
     }    
 
     .img__interior{
