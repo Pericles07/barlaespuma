@@ -151,6 +151,12 @@ body{
     padding-top: 1.5em;
 }
 
+.footer_email{
+    padding-left: 0.5em;
+    text-decoration: none;
+    color: orange;
+}
+
 .footer__redes{
     width: 40px;
 }

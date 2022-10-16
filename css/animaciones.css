@@ -10,12 +10,14 @@
         opacity: 0;
         height: 0%;
         transition:all .7s ease-out;
+        pointer-events: none;
     }
 
     header div.nav__contenedor nav.visible {
         display: block;
         opacity: 0.95;
         height: 80%;
+        pointer-events: all;
     }
 
     #menu{
