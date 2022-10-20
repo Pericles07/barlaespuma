@@ -1,0 +1,32 @@
+body{
+    color: white;
+    background: url(../image/fondo.jpg);
+    background-size: cover;
+}
+
+.nav__novedades{
+    color: white;
+}
+
+.nav__novedades:hover{
+    color: darkred;
+}
+
+.main__galeria{
+    display: flex;
+    justify-content: space-around;
+    margin: 3em;
+}
+
+.img__gal{
+    width: 30%;
+    border-radius: 1em;
+    box-shadow: 10px 10px 4px black;
+}
+
+.main__galeria:hover .img__gal {
+    -webkit-transform:scale(1.3);transform:scale(1.5);
+    transition:all 1s ease-in-out;
+}
+/*.main__galeria {overflow:hidden;}/*
+

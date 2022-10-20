@@ -4,7 +4,7 @@
     display: none;
 }
 
-@media(max-width:500px){
+@media(max-width:540px){
 
     header div.nav__contenedor nav {
         opacity: 0;
@@ -16,7 +16,7 @@
     header div.nav__contenedor nav.visible {
         display: block;
         opacity: 0.95;
-        height: 80%;
+        height: 100%;
         pointer-events: all;
     }
 

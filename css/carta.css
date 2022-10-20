@@ -1,0 +1,42 @@
+.logo__jamon{
+    width: 60px;
+}
+
+.carta{
+    display: flex;
+    padding-top: 2em;
+    margin: 0 2em;
+}
+
+.carta__img{
+    width: 50%;
+}
+
+.img-qr{
+    width: 20%;
+}
+
+.img-5{
+    width: 100%;
+    height: 20em;
+}
+
+@media(max-width:540px){
+
+    .carta{
+        display: block;
+        margin: 0;
+    }
+
+    .carta__img{
+        width: 100%;
+    }
+
+    .img-qr{
+        width: 10em;
+    }
+
+    .img-5{
+        height: 10em;
+    }
+}

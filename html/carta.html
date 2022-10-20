@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" sizes="32x32" href="../image/logo.PNG" >
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/carta.css">
     <link rel="stylesheet" href="../css/animaciones.css">
+    <script src="../index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
@@ -14,17 +16,31 @@
 </head>
 <body>
 
-    <nav class="nav__contenedor">
+    <header>
+        
+        <div class="nav__contenedor">
 
         <figure class="nav__logo">
             <img src="../image/logo.PNG" alt="logo" class="nav__img">
         </figure>
 
-        <img src="../image/tapero.jpg" alt="tapero" class="nav__portada">
-
-    <a href="../index.html" class="nav__link carta__link">BEGINNING / INICIO</a>
         
+
+    <button id="menu">
+        <span id="menu-abrir">&#9776;</span>
+        
+        <span id="menu-cerrar">x</span>
+    </button>
+
+
+    <nav class="nav__contenedor nav">
+    <a href="../index.html" class="nav__link">INICIO</a>
+    <a href="../html/galeria.html" class="nav__link">GALERIA</a>
+    <a href="../html/novedades.html" class="nav__link">NOVEDADES</a>
+    <a href="../html/carta.html" class="nav__link">CARTA</a>
     </nav>
+
+</header>
 
     <main class="main__contenedor">
 

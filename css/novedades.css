@@ -1,0 +1,26 @@
+body{
+    color: white;
+    background: url(../image/navidad1.jpg);
+    background-size: cover;
+}
+
+.nav__novedades{
+    color: white;
+}
+
+.main__parrafo{
+    text-shadow: 0px 0px 5px black;
+}
+
+.img__menu{
+    border-radius: 1em;
+    margin: 1em;
+    width: 50%;
+}
+
+@media(max-width:540px){
+
+    .menu__parrafo{
+        font-size: small;
+    }
+}
