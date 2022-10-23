@@ -166,6 +166,12 @@ body{
         margin-top:5em;
     }
 
+    .img__idiomas{
+        width: 15px;
+        height: 15px;
+        margin-right: 1em;
+    }
+
     .main__titulo{
         font-size: 1em;
     }    
