@@ -1,0 +1,35 @@
+body{
+    color: white;
+    background: url(../image/fondo-promo.webp);
+    background-size: cover;
+}
+
+.nav__novedades{
+    color: white;
+}
+
+.main__parrafo{
+    font-size: 30px;
+    margin:1em;
+}
+
+.img__promo{
+    width: 40%;
+    height: 30em;
+    border-radius: 5px;
+    margin: 0 2em 2em 2em;
+}
+
+@media(max-width:540px){
+
+    .main__parrafo{
+        font-size: 15px;
+    }
+
+    .img__promo{
+        width: 80%;
+        height: 20em;
+        border-radius: 5px;
+        margin:0 0 2em 0;
+    }
+}
