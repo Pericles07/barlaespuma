@@ -20,6 +20,22 @@ body{
     margin: 0 2em 2em 2em;
 }
 
+.img__cartel{
+    width: 100%;
+}
+
+.main__promocion{
+    color: black;
+    background-color: white;
+    padding: 1em;
+    margin:0;
+}
+
+.enlace{
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
 @media(max-width:540px){
 
     .main__parrafo{
