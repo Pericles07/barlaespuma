@@ -1,7 +1,7 @@
 body{
     color: white;
-    background: url(../image/navidad1.jpg);
-    background-size: cover;
+    background: url(../image/fondocarnaval.jpg);
+    background-size:contain;
 }
 
 .nav__novedades{
@@ -15,7 +15,7 @@ body{
 .img__menu{
     border-radius: 1em;
     margin: 1em;
-    width: 50%;
+    width: 70%;
 }
 
 @media(max-width:540px){
